@@ -76,6 +76,11 @@ main {
   padding: 40px;
 }
 
+main .profile-photo {
+  display: flex;
+  justify-content: center;
+}
+
 /* Hero section styles */
 #hero {
   background-color: #f2f2f2;
@@ -232,4 +237,12 @@ footer{
   .portfolio-grid {
     grid-template-columns: 100%;
   }
+  .description-container{
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  
 }
