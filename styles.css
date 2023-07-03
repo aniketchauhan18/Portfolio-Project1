@@ -16,7 +16,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: white;
 }
 
 h1, h2, h3 {
@@ -29,7 +29,7 @@ a {
 
 /* Header styles */
 header {
-  background-color: #333;
+  background-color: #4942E4;
   color: #fff;
   padding: 20px;
 }
@@ -83,7 +83,8 @@ main .profile-photo {
 
 /* Hero section styles */
 #hero {
-  background-color: #f2f2f2;
+  background-color: 
+  #8696FE;
   padding: 100px 0;
   text-align: center;
 }
@@ -109,19 +110,20 @@ main .profile-photo {
 .hero-text a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #11009E;
   color: #fff;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .hero-text a:hover {
-  background-color: #555;
+  background-color: #1501c8;
 }
 
 /* About section styles */
 #about {
   background-color: #fff;
+  color: black;
   padding: 80px 0;
   text-align: center;
 }
@@ -155,7 +157,8 @@ main .profile-photo {
 
 /* Portfolio section styles */
 #portfolio {
-  background-color: #f2f2f2;
+  background-color: 
+  #8696FE;
   padding: 40px 0;
 }
 
@@ -170,12 +173,15 @@ main .profile-photo {
   display: inline-block;
   justify-content: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #11009E;
   color: #fff;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
+.portfolio-item a:hover {
+  background-color: #1501c8;
+}
 .portfolio-item {
   position: relative;
 }
@@ -191,6 +197,8 @@ main .profile-photo {
   transform: scale(1.02);
 }
 
+
+
 .container h2{
   text-align: center;
   font-size: 30px;
@@ -201,9 +209,28 @@ main .profile-photo {
   font-size: 20px;
 }
 
+
+.description-container{
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.description-container .box{
+  height: 300px;
+  flex-grow: 1;
+  border-radius: 10px;
+  display: flex;
+  background-color:#ECF8F9;
+  align-items: center;
+  justify-content: center;
+}
 /* Contact section styles */
 #contact {
   background-color: #fff;
+  color: black;
   padding: 80px 0;
   text-align: center;
 }
@@ -231,7 +258,9 @@ main .profile-photo {
 
 footer{
   text-align: center;
+  color: black;
 }
+
 
 @media (max-width: 600px) {
   .portfolio-grid {
@@ -244,5 +273,4 @@ footer{
   nav ul {
     flex-direction: column;
   }
-  
 }
