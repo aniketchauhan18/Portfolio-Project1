@@ -227,3 +227,9 @@ main {
 footer{
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .portfolio-grid {
+    grid-template-columns: 100%;
+  }
+}
