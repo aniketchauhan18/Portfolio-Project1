@@ -1,2 +1,2 @@
 # Portfolio
-Created a my project with the help of chatgpt. This is the portfolio project for my friend
+This is my first project in my journey of project based learning. Create a portfolio project with  the help of css and html
